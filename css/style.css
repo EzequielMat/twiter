@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+body {
+margin: 0;
+
+}
+.cb {
+    clear:both
+}
+.izquierdo{
+float: left;
+width: 50%;
+position: relative;
+}
+.derecho {
+    float: right;
+    width: 50%;
+    position: relative;
+}
+.logox{
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    width: 50%;
+    
+}
