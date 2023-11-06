@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: Verdana, "Segoe UI" , Helvetica, Arial, sans-serif;
 }
 html{
     height: 100%;
@@ -41,12 +42,14 @@ padding-left: 335px;
 }
 .texto-xxl {
     font-weight: bold;
-    font-size: 80px;
+    font-size: 60px;
     color: black;
+    
 }
 .texto-l {
+    
     font-weight: bold;
-    font-size: 40px;
+    font-size: 30px;
     color: black;
     margin-bottom: 20px;
 }
@@ -58,7 +61,7 @@ padding-left: 335px;
     width: 50%;
     padding: 10px 0 10px 0;
     background-image: url(../img/logoG.png);
-    padding-right: 90px;
+    padding-right: 70px;
     background-repeat: no-repeat;
     background-size: contain;
     font-weight: bold;
@@ -72,7 +75,7 @@ padding-left: 335px;
     width: 50%;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-right: 90px;
+    padding-right: 70px;
     background-image: url(../img/logoA.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -81,6 +84,7 @@ padding-left: 335px;
     
 }
 .inputazul {
+    font-weight: bold;
     border-radius: 40px;
     border: 1px solid rgb(206, 217, 222);
     width: 50%;
@@ -93,7 +97,7 @@ padding-left: 335px;
 .texto-s{
     margin-top: 5px;
     width: 50%;
-    font-size: 12px;
+    font-size: 11px;
 }
 .texto-centrado{
     width: 50%;
@@ -105,10 +109,12 @@ a {
     color: rgb(26, 154, 240);
 }
 .cuenta{
+    font-weight: bold;
         margin-top: 50px;
         font-size: 20px;
 }
 .sesion {
+    font-weight: bold;
     border-radius: 40px;
     width: 50%;
     padding-top: 10px;
