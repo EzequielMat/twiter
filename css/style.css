@@ -1,27 +1,119 @@
 * {
     box-sizing: border-box;
 }
+html{
+    height: 100%;
+}
 body {
 margin: 0;
+height: 100%;
 
 }
-.cb {
-    clear:both
+main{
+    height: 100%;
 }
+.row{
+    display: flex;
+}
+
 .izquierdo{
-float: left;
 width: 50%;
-position: relative;
+padding-top: 295px;
+padding-left: 335px;
+
 }
 .derecho {
-    float: right;
     width: 50%;
-    position: relative;
+    padding-left: 110px;
+    padding-right: 200px;
+    padding-top: 160px;
+   
 }
 .logox{
-    position: absolute;
-    left: 50%;
-    bottom: 50%;
-    width: 50%;
+   height: 100%;
+   background-image: url(../img/logoX.png);
+   background-repeat: no-repeat;
+   
     
+}
+.p {
+    margin:0 0 ;
+}
+.texto-xxl {
+    font-weight: bold;
+    font-size: 80px;
+    color: black;
+}
+.texto-l {
+    font-weight: bold;
+    font-size: 40px;
+    color: black;
+    margin-bottom: 20px;
+}
+.inputG{
+    border-radius: 40px;
+    border: 1px solid rgb(206, 217, 222);
+    display: block;
+    margin-bottom: 20px;
+    width: 50%;
+    padding: 10px 0 10px 0;
+    background-image: url(../img/logoG.png);
+    padding-right: 90px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-weight: bold;
+    background-color: white;
+    
+}
+.inputA{
+    border-radius: 40px;
+    border: 1px solid rgb(206, 217, 222);
+    display: block;
+    width: 50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 90px;
+    background-image: url(../img/logoA.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-weight: bold;
+    background-color: white;
+    
+}
+.inputazul {
+    border-radius: 40px;
+    border: 1px solid rgb(206, 217, 222);
+    width: 50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    background-color: rgb(26, 140, 216);
+
+}
+.texto-s{
+    margin-top: 5px;
+    width: 50%;
+    font-size: 12px;
+}
+.texto-centrado{
+    width: 50%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+a {
+    text-decoration: none;
+    color: rgb(26, 154, 240);
+}
+.cuenta{
+        margin-top: 50px;
+        font-size: 20px;
+}
+.sesion {
+    border-radius: 40px;
+    width: 50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(26, 140, 216);
+    background-color: white;
+    border: 1px solid rgb(206, 217, 222);
 }
