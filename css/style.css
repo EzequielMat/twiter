@@ -31,6 +31,7 @@ padding-left: 200px;
    height: 50%;
    width: 77%;
    background-image: url(../img/logoX.png);
+   background-repeat: no-repeat;
 }
 .p {
     margin:0 0 ;
@@ -53,7 +54,6 @@ padding-left: 200px;
     display: block;
     margin-bottom: 20px;
     width: 50%;
-
     background-color: white;
     padding: 5px; 
 }
